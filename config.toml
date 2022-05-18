@@ -1,4 +1,4 @@
-baseURL = "reutherlab.netlify.app"
+baseURL = "https://reutherlab.netlify.app"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Reuther Lab Research"
