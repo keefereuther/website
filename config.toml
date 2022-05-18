@@ -30,7 +30,7 @@ enableEmoji = true
 [params]
   orgName = "UCSD"
   orgLocal = "San Diego"
-  description = "A modern, beautiful, and easily configurable blog theme for Hugo."
+  description = "Reuther Lab"
   favicon = "logo_light.png"
   logo = "logo_dark.png"
   mainSections = ["Home", "Teaching", "Research", "People", "Media"]
