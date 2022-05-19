@@ -33,7 +33,7 @@ enableEmoji = true
   description = "Reuther Lab"
   favicon = "logo_light.png"
   logo = "logo_dark.png"
-  mainSections = ["Home", "Teaching", "Research", "People", "Media"]
+  mainSections = ["Home", "Teaching", "Scholarship", "People", "News & Views"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -71,7 +71,7 @@ enableEmoji = true
   # Configuration of https://utteranc.es/ for comments
   [params.utterances]
     use_utterances = true
-    repo_name = "apreshill/apero"
+    repo_name = "keefereuther/website"
     issue_term = "pathname" # url, pathname, or title
     theme = "boxy-light"
     label = "comments :crystal_ball:"
@@ -119,6 +119,8 @@ enableEmoji = true
   series = "series"
   tag = "tags"
 
+#["Home", "Teaching", "Scholarship", "People", "News & Views"]
+
 [menu]
   # Configure header 
   [[menu.header]]
@@ -129,22 +131,22 @@ enableEmoji = true
   [[menu.header]]
     name = "Teaching"
     title = "My Courses"
-    url = "/blog/"
+    url = "/teaching/" #project
     weight = 2
   [[menu.header]]
-    name = "Research"
+    name = "Scholarship"
     title = "Our Research"
-    url = "/project/"
+    url = "/scholarship/" #project
     weight = 3
   [[menu.header]]
     name = "People"
     title = "People"
-    url = "/talk/"
+    url = "/people/" #collection
     weight = 4
   [[menu.header]]
-    name = "Media"
+    name = "News & Views"
     title = "News and Views"
-    url = "/collection/"
+    url = "/blog/" #blog
     weight = 5
   # [[menu.header]]
     # name = "Elements"
